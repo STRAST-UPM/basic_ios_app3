@@ -1,3 +1,20 @@
 # basic_ios_app
 
-Las librerias estan importadas con cocoapods ya que abseil no es compatible con SPM
+Librerias importadadas:
+ AFNetworking (4.0.1)
+ AppAuth (1.7.6)
+ BoringSSL (10.0.6)
+ BoringSSL-GRPC (0.0.39)
+ Firebase (5.20.2)
+ FirebaseAnalytics (5.8.1)
+ FirebaseAuthInterop (1.1.0)
+ FirebaseCore (5.4.1)
+ FirebaseFirestore (0.16.1)
+ FirebaseInstanceID (3.8.1)
+ GoogleAppMeasurement (5.8.1)
+ GoogleUtilities (5.8.0)
+ Protobuf (3.29.3)
+ gRPC-C++ (0.0.5)
+ gRPC-Core (1.14.0)
+ leveldb-library (1.22.6)
+ nanopb (0.3.9011)
