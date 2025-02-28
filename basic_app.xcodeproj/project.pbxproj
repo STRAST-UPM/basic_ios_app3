@@ -6,6 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0E7B4712D71D97700498107 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC085C2D71D33500D720EC /* FirebaseAnalytics */; };
+		B0E7B4722D71D97700498107 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC085E2D71D33500D720EC /* FirebaseAuth */; };
+		B0E7B4732D71D97700498107 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC08602D71D33500D720EC /* FirebaseCore */; };
+		B0E7B4742D71D97700498107 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC08622D71D33500D720EC /* FirebaseFirestore */; };
+		B0E7B4922D71DA6900498107 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B0E7B4912D71DA6900498107 /* Alamofire */; };
+		B0E7B4942D71DA6F00498107 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B0E7B4932D71DA6F00498107 /* AppAuth */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B08A1BD62D560F5E00F8BBB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +74,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E7B4942D71DA6F00498107 /* AppAuth in Frameworks */,
+				B0E7B4922D71DA6900498107 /* Alamofire in Frameworks */,
+				B0E7B4742D71D97700498107 /* FirebaseFirestore in Frameworks */,
+				B0E7B4732D71D97700498107 /* FirebaseCore in Frameworks */,
+				B0E7B4722D71D97700498107 /* FirebaseAuth in Frameworks */,
+				B0E7B4712D71D97700498107 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +106,7 @@
 				B08A1BC72D560F5900F8BBB8 /* basic_app */,
 				B08A1BD82D560F5E00F8BBB8 /* basic_appTests */,
 				B08A1BE22D560F5E00F8BBB8 /* basic_appUITests */,
+				B0DC08572D71D33500D720EC /* Frameworks */,
 				B08A1BC62D560F5900F8BBB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +119,13 @@
 				B08A1BDF2D560F5E00F8BBB8 /* basic_appUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0DC08572D71D33500D720EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +148,19 @@
 			);
 			name = basic_app;
 			packageProductDependencies = (
+				B0DC085C2D71D33500D720EC /* FirebaseAnalytics */,
+				B0DC085E2D71D33500D720EC /* FirebaseAuth */,
+				B0DC08602D71D33500D720EC /* FirebaseCore */,
+				B0DC08622D71D33500D720EC /* FirebaseFirestore */,
+				B0DC088C2D71D79900D720EC /* GULAppDelegateSwizzler */,
+				B0DC088E2D71D79900D720EC /* GULEnvironment */,
+				B0DC08902D71D79900D720EC /* GULLogger */,
+				B0DC08922D71D79900D720EC /* GULMethodSwizzler */,
+				B0DC08962D71D79900D720EC /* GULNSData */,
+				B0DC08982D71D79900D720EC /* GULReachability */,
+				B0DC089A2D71D79900D720EC /* GULSwizzlerTestHelpers */,
+				B0E7B4912D71DA6900498107 /* Alamofire */,
+				B0E7B4932D71DA6F00498107 /* AppAuth */,
 			);
 			productName = basic_app;
 			productReference = B08A1BC52D560F5900F8BBB8 /* basic_app.app */;
@@ -208,6 +244,12 @@
 			);
 			mainGroup = B08A1BBC2D560F5900F8BBB8;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */,
+				B0E7B48F2D71DA4C00498107 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B0E7B4902D71DA5F00498107 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B08A1BC62D560F5900F8BBB8 /* Products */;
 			projectDirPath = "";
@@ -418,12 +460,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -448,12 +491,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ines.basicapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.basic.app3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -573,6 +617,109 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.9.0;
+			};
+		};
+		B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleUtilities.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.2;
+			};
+		};
+		B0E7B48F2D71DA4C00498107 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		B0E7B4902D71DA5F00498107 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0DC085C2D71D33500D720EC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B0DC085E2D71D33500D720EC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B0DC08602D71D33500D720EC /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		B0DC08622D71D33500D720EC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B0DC088C2D71D79900D720EC /* GULAppDelegateSwizzler */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULAppDelegateSwizzler;
+		};
+		B0DC088E2D71D79900D720EC /* GULEnvironment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULEnvironment;
+		};
+		B0DC08902D71D79900D720EC /* GULLogger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULLogger;
+		};
+		B0DC08922D71D79900D720EC /* GULMethodSwizzler */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULMethodSwizzler;
+		};
+		B0DC08962D71D79900D720EC /* GULNSData */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULNSData;
+		};
+		B0DC08982D71D79900D720EC /* GULReachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULReachability;
+		};
+		B0DC089A2D71D79900D720EC /* GULSwizzlerTestHelpers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
+			productName = GULSwizzlerTestHelpers;
+		};
+		B0E7B4912D71DA6900498107 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0E7B48F2D71DA4C00498107 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B0E7B4932D71DA6F00498107 /* AppAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0E7B4902D71DA5F00498107 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
+			productName = AppAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B08A1BBD2D560F5900F8BBB8 /* Project object */;
 }

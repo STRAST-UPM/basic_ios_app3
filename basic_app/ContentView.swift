@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let libraryManager = LibraryManager() // Instancia de la clase de librerías
+    @StateObject private var libraryManager = LibraryManager() // Observador para actualizar la UI
 
     var body: some View {
         VStack {
@@ -16,6 +16,10 @@ struct ContentView: View {
             .background(Color.blue)
             .foregroundColor(.white)
             .cornerRadius(10)
+
+            Text("Última librería usada: \(libraryManager.lastLibraryUsed)")
+                .font(.headline)
+                .padding()
         }
     }
 }
