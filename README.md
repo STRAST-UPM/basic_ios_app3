@@ -7,7 +7,7 @@ Este proyecto es una aplicación iOS que utiliza varias librerías para autentic
 El proyecto usa **CocoaPods** para la gestión de dependencias. A continuación, se detallan las librerías incluidas:
 
 ### 🔹 **Redes y Autenticación**
-- **AFNetworking** (`4.0.1`) → Cliente HTTP para iOS y macOS.
+- **Alamofire** (`5.10.2`) → Cliente HTTP moderno basado en Swift.
 - **AppAuth** (`1.7.6`) → Implementación del estándar OAuth 2.0 y OpenID Connect.
 
 ### 🔹 **Seguridad y Cifrado**
