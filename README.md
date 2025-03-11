@@ -25,7 +25,6 @@ El proyecto usa **CocoaPods** para la gestión de dependencias. A continuación,
 ### 🔹 **Google & Protobuf**
 - **GoogleAppMeasurement** (`5.8.1`) → Recopilación de datos analíticos en Firebase.
 - **GoogleUtilities** (`5.8.0`) → Utilidades internas de Firebase.
-- **Protobuf** (`3.29.3`) → Serialización de datos basada en Google Protocol Buffers.
 
 ### 🔹 **gRPC y Base de Datos**
 - **gRPC-C++** (`0.0.5`) → Implementación de gRPC en C++.
