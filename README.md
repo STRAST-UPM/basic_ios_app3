@@ -1,39 +1,47 @@
-# basic_ios_app
+# basic_app
 
-## 📱 Descripción
-Este proyecto es una aplicación iOS que utiliza varias librerías para autenticación, redes, seguridad y Firebase.
+## Descripción
+`basic_app` es una aplicación iOS desarrollada en **Swift** que integra múltiples librerías para autenticación, redes, base de datos, seguridad y Google/Firebase SDKs. Se gestiona a través de **CocoaPods** para la administración de dependencias.
 
-## 📦 Librerías Importadas
-El proyecto usa **CocoaPods** para la gestión de dependencias. A continuación, se detallan las librerías incluidas:
+## Librerías Importadas
+A continuación, se detallan las librerías utilizadas en la aplicación:
 
-### 🔹 **Redes y Autenticación**
-- **Alamofire** (`5.10.2`) → Cliente HTTP moderno basado en Swift.
-- **AppAuth** (`1.7.6`) → Implementación del estándar OAuth 2.0 y OpenID Connect.
+### Redes y Conectividad
+- **Alamofire** → Cliente HTTP moderno basado en Swift para realizar peticiones de red.
+- **gRPC** → Implementación de gRPC en Swift para comunicación remota.
+- **gRPC-C++** → Versión en C++ de gRPC para mejorar el rendimiento.
+- **gRPC-Core** → Núcleo de gRPC para manejo de conexiones.
+- **GTMSessionFetcher** → Manejo de sesiones HTTP para autenticación y datos en Google.
 
-### 🔹 **Seguridad y Cifrado**
-- **BoringSSL** (`10.0.6`) → Biblioteca de cifrado utilizada por Google.
-- **BoringSSL-GRPC** (`0.0.39`) → Variante de BoringSSL optimizada para gRPC.
+### Seguridad y Protección
+- **FirebaseAppCheck** → Protección contra el uso indebido de Firebase.
+- **RecaptchaInterop** → Integración con reCAPTCHA para validación de seguridad.
+- **BoringSSL-GRPC** → Implementación de seguridad y cifrado usada en gRPC.
+- **OpenSSL** → Biblioteca de criptografía para iOS.
 
-### 🔹 **Firebase**
-- **Firebase** (`5.20.2`) → Plataforma de desarrollo para aplicaciones móviles.
-- **FirebaseAnalytics** (`5.8.1`) → Herramienta de analítica para apps móviles.
-- **FirebaseAuthInterop** (`1.1.0`) → Soporte para autenticación Firebase.
-- **FirebaseCore** (`5.4.1`) → Librería base de Firebase.
-- **FirebaseFirestore** (`0.16.1`) → Base de datos NoSQL en la nube.
-- **FirebaseInstanceID** (`3.8.1`) → Manejo de identificadores de instancia en Firebase.
+### Firebase
+- **Firebase** → Core de Firebase para la configuración principal.
+- **FirebaseAnalytics** → Seguimiento de eventos y métricas en la app.
+- **FirebaseAuth** → Manejo de autenticación de usuarios en Firebase.
+- **FirebaseAuthInterop** → Interfaz para autenticación en Firebase.
+- **FirebaseCore** → Librería base de Firebase.
+- **FirebaseCoreExtension** → Extensiones para FirebaseCore.
+- **FirebaseCoreInternal** → Módulos internos de FirebaseCore.
+- **FirebaseFirestore** → Base de datos en la nube con sincronización en tiempo real.
+- **FirebaseFirestoreInternal** → Funcionalidades internas de Firestore.
+- **FirebaseInstallations** → Identificadores únicos de instalación en Firebase.
+- **FirebaseSharedSwift** → Extensión de Firebase para proyectos en Swift.
 
-### 🔹 **Google & Protobuf**
-- **GoogleAppMeasurement** (`5.8.1`) → Recopilación de datos analíticos en Firebase.
-- **GoogleUtilities** (`5.8.0`) → Utilidades internas de Firebase.
+### Google SDKs y Utilidades
+- **GoogleAppMeasurement** → Seguimiento de métricas avanzadas en Firebase.
+- **GoogleDataTransport** → Infraestructura de transporte de datos para Firebase.
+- **GoogleUtilities** → Funciones auxiliares para los SDKs de Google.
 
-### 🔹 **gRPC y Base de Datos**
-- **gRPC-C++** (`0.0.5`) → Implementación de gRPC en C++.
-- **gRPC-Core** (`1.14.0`) → Núcleo de gRPC para comunicación remota.
-- **leveldb-library** (`1.22.6`) → Base de datos ligera para almacenamiento de datos locales.
-- **nanopb** (`0.3.9011`) → Implementación compacta de Protocol Buffers para dispositivos embebidos.
+### Manejo de Datos y Serialización
+- **leveldb-library** → Base de datos ligera utilizada por Firebase Firestore.
+- **nanopb** → Codificación de datos compacta utilizada en Firebase.
+- **PromisesObjC** → Manejo de promesas en Objective-C para asincronía.
+- **SwiftProtobuf** → Implementación de Protocol Buffers en Swift.
 
-## 🔧 Instalación
-Este proyecto usa **CocoaPods** para gestionar dependencias. Para instalar las librerías, ejecuta:
-
-```bash
-pod install
+### Autenticación
+- **AppAuth** → Manejo de autenticación basada en OAuth 2.0 y OpenID Connect.
