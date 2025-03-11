@@ -1,7 +1,7 @@
 import Foundation
 import Alamofire
 import FirebaseCore
-import GoogleUtilities_Logger
+import GoogleUtilities
 
 class LibraryManager: ObservableObject {
     @Published var lastLibraryUsed: String = "Ninguna" // Estado para mostrar en la UI

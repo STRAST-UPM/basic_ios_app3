@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0E7B4712D71D97700498107 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC085C2D71D33500D720EC /* FirebaseAnalytics */; };
-		B0E7B4722D71D97700498107 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC085E2D71D33500D720EC /* FirebaseAuth */; };
-		B0E7B4732D71D97700498107 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC08602D71D33500D720EC /* FirebaseCore */; };
-		B0E7B4742D71D97700498107 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B0DC08622D71D33500D720EC /* FirebaseFirestore */; };
-		B0E7B4922D71DA6900498107 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B0E7B4912D71DA6900498107 /* Alamofire */; };
-		B0E7B4942D71DA6F00498107 /* AppAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B0E7B4932D71DA6F00498107 /* AppAuth */; };
+		5504252CD2CC9D1CBFD2D884 /* Pods_basic_app_basic_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AC19B8833D297ACD9CD704 /* Pods_basic_app_basic_appUITests.framework */; };
+		81A3AB6717EA28A0BFFBA304 /* Pods_basic_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5DB7DB02C3633DCE27D306 /* Pods_basic_appTests.framework */; };
+		B0CF25EE2D80516F00CCC481 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25ED2D80516F00CCC481 /* Alamofire.framework */; };
+		B0CF25F02D80516F00CCC481 /* AppAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25EF2D80516F00CCC481 /* AppAuth.framework */; };
+		B0CF25F22D80518600CCC481 /* openssl_grpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25F12D80518600CCC481 /* openssl_grpc.framework */; };
+		B0CF25F42D8051B800CCC481 /* FirebaseAnalytics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25F32D8051B800CCC481 /* FirebaseAnalytics.xcframework */; };
+		B0CF25F62D8051B800CCC481 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25F52D8051B800CCC481 /* FirebaseAuth.framework */; };
+		B0CF25F82D8051B800CCC481 /* FirebaseAuthInterop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25F72D8051B800CCC481 /* FirebaseAuthInterop.framework */; };
+		B0CF25FA2D8051B800CCC481 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25F92D8051B800CCC481 /* FirebaseCore.framework */; };
+		B0CF25FC2D8051B800CCC481 /* FirebaseFirestore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25FB2D8051B800CCC481 /* FirebaseFirestore.framework */; };
+		B0CF25FE2D8051EB00CCC481 /* GoogleAppMeasurement.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25FD2D8051EB00CCC481 /* GoogleAppMeasurement.xcframework */; };
+		B0CF26002D8051EB00CCC481 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF25FF2D8051EB00CCC481 /* GoogleUtilities.framework */; };
+		B0CF26022D80522300CCC481 /* grpc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF26012D80522300CCC481 /* grpc.framework */; };
+		B0CF26042D80522300CCC481 /* grpcpp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF26032D80522300CCC481 /* grpcpp.framework */; };
+		B0CF26062D80522300CCC481 /* leveldb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF26052D80522300CCC481 /* leveldb.framework */; };
+		B0CF26082D80522300CCC481 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CF26072D80522300CCC481 /* nanopb.framework */; };
+		B2482C7E99D79B2E21CB209F /* Pods_basic_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 629BB31D505AFA197D8A2D7C /* Pods_basic_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +44,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		261DEB4E2B222B188E6B3973 /* Pods-basic_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic_app.debug.xcconfig"; path = "Target Support Files/Pods-basic_app/Pods-basic_app.debug.xcconfig"; sourceTree = "<group>"; };
+		57A266B47EE1456DC8F5EA86 /* Pods-basic_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic_appTests.debug.xcconfig"; path = "Target Support Files/Pods-basic_appTests/Pods-basic_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		629BB31D505AFA197D8A2D7C /* Pods_basic_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_basic_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F71C19204ABAF7398909781 /* Pods-basic_app-basic_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic_app-basic_appUITests.debug.xcconfig"; path = "Target Support Files/Pods-basic_app-basic_appUITests/Pods-basic_app-basic_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88AC19B8833D297ACD9CD704 /* Pods_basic_app_basic_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_basic_app_basic_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08A1BC52D560F5900F8BBB8 /* basic_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basic_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08A1BD52D560F5E00F8BBB8 /* basic_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basic_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08A1BDF2D560F5E00F8BBB8 /* basic_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = basic_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25BD2D804DA400CCC481 /* absl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = absl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25BF2D804DA400CCC481 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25C12D804DA400CCC481 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25C32D804DA400CCC481 /* AppCheckCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppCheckCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25C52D804DA400CCC481 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25C72D804E6F00CCC481 /* FirebaseAppCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25C92D804E6F00CCC481 /* FirebaseAppCheckInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAppCheckInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25CB2D804E6F00CCC481 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25CD2D804E6F00CCC481 /* FirebaseAuthInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuthInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25CF2D804E6F00CCC481 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25D12D804E6F00CCC481 /* FirebaseCoreExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25D32D804E6F00CCC481 /* FirebaseCoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25D52D804E6F00CCC481 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25D72D804E6F00CCC481 /* FirebaseFirestoreInternal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestoreInternal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25D92D804E6F00CCC481 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25DB2D804E6F00CCC481 /* FirebaseSharedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseSharedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25DD2D804E6F00CCC481 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25DF2D804E6F00CCC481 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25E12D804E6F00CCC481 /* grpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = grpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25E32D804E6F00CCC481 /* grpcpp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = grpcpp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25E52D804E6F00CCC481 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25E72D804E6F00CCC481 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25E92D804E6F00CCC481 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25EB2D804E6F00CCC481 /* openssl_grpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = openssl_grpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25ED2D80516F00CCC481 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25EF2D80516F00CCC481 /* AppAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25F12D80518600CCC481 /* openssl_grpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = openssl_grpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25F32D8051B800CCC481 /* FirebaseAnalytics.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = FirebaseAnalytics.xcframework; path = Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.xcframework; sourceTree = "<group>"; };
+		B0CF25F52D8051B800CCC481 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25F72D8051B800CCC481 /* FirebaseAuthInterop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuthInterop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25F92D8051B800CCC481 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25FB2D8051B800CCC481 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF25FD2D8051EB00CCC481 /* GoogleAppMeasurement.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:EQHXZ8M8AV:Google LLC"; lastKnownFileType = wrapper.xcframework; name = GoogleAppMeasurement.xcframework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework; sourceTree = "<group>"; };
+		B0CF25FF2D8051EB00CCC481 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF26012D80522300CCC481 /* grpc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = grpc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF26032D80522300CCC481 /* grpcpp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = grpcpp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF26052D80522300CCC481 /* leveldb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = leveldb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CF26072D80522300CCC481 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5DB7DB02C3633DCE27D306 /* Pods_basic_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_basic_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E5B45A1DD2C971A229EE26 /* Pods-basic_app-basic_appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic_app-basic_appUITests.release.xcconfig"; path = "Target Support Files/Pods-basic_app-basic_appUITests/Pods-basic_app-basic_appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0EE38D391E1D0F5E1D3E3EE /* Pods-basic_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic_app.release.xcconfig"; path = "Target Support Files/Pods-basic_app/Pods-basic_app.release.xcconfig"; sourceTree = "<group>"; };
+		F84E9B87DBED67942A649239 /* Pods-basic_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-basic_appTests.release.xcconfig"; path = "Target Support Files/Pods-basic_appTests/Pods-basic_appTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -74,12 +132,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E7B4942D71DA6F00498107 /* AppAuth in Frameworks */,
-				B0E7B4922D71DA6900498107 /* Alamofire in Frameworks */,
-				B0E7B4742D71D97700498107 /* FirebaseFirestore in Frameworks */,
-				B0E7B4732D71D97700498107 /* FirebaseCore in Frameworks */,
-				B0E7B4722D71D97700498107 /* FirebaseAuth in Frameworks */,
-				B0E7B4712D71D97700498107 /* FirebaseAnalytics in Frameworks */,
+				B0CF26022D80522300CCC481 /* grpc.framework in Frameworks */,
+				B0CF26042D80522300CCC481 /* grpcpp.framework in Frameworks */,
+				B0CF26062D80522300CCC481 /* leveldb.framework in Frameworks */,
+				B0CF26082D80522300CCC481 /* nanopb.framework in Frameworks */,
+				B0CF25FE2D8051EB00CCC481 /* GoogleAppMeasurement.xcframework in Frameworks */,
+				B0CF26002D8051EB00CCC481 /* GoogleUtilities.framework in Frameworks */,
+				B0CF25F42D8051B800CCC481 /* FirebaseAnalytics.xcframework in Frameworks */,
+				B0CF25F62D8051B800CCC481 /* FirebaseAuth.framework in Frameworks */,
+				B0CF25F82D8051B800CCC481 /* FirebaseAuthInterop.framework in Frameworks */,
+				B0CF25FA2D8051B800CCC481 /* FirebaseCore.framework in Frameworks */,
+				B0CF25FC2D8051B800CCC481 /* FirebaseFirestore.framework in Frameworks */,
+				B0CF25F22D80518600CCC481 /* openssl_grpc.framework in Frameworks */,
+				B0CF25EE2D80516F00CCC481 /* Alamofire.framework in Frameworks */,
+				B0CF25F02D80516F00CCC481 /* AppAuth.framework in Frameworks */,
+				B2482C7E99D79B2E21CB209F /* Pods_basic_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81A3AB6717EA28A0BFFBA304 /* Pods_basic_appTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +162,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5504252CD2CC9D1CBFD2D884 /* Pods_basic_app_basic_appUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		869C999408769A9613FE5906 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				261DEB4E2B222B188E6B3973 /* Pods-basic_app.debug.xcconfig */,
+				F0EE38D391E1D0F5E1D3E3EE /* Pods-basic_app.release.xcconfig */,
+				6F71C19204ABAF7398909781 /* Pods-basic_app-basic_appUITests.debug.xcconfig */,
+				D5E5B45A1DD2C971A229EE26 /* Pods-basic_app-basic_appUITests.release.xcconfig */,
+				57A266B47EE1456DC8F5EA86 /* Pods-basic_appTests.debug.xcconfig */,
+				F84E9B87DBED67942A649239 /* Pods-basic_appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B08A1BBC2D560F5900F8BBB8 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +190,7 @@
 				B08A1BE22D560F5E00F8BBB8 /* basic_appUITests */,
 				B0DC08572D71D33500D720EC /* Frameworks */,
 				B08A1BC62D560F5900F8BBB8 /* Products */,
+				869C999408769A9613FE5906 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +207,47 @@
 		B0DC08572D71D33500D720EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0CF26012D80522300CCC481 /* grpc.framework */,
+				B0CF26032D80522300CCC481 /* grpcpp.framework */,
+				B0CF26052D80522300CCC481 /* leveldb.framework */,
+				B0CF26072D80522300CCC481 /* nanopb.framework */,
+				B0CF25FD2D8051EB00CCC481 /* GoogleAppMeasurement.xcframework */,
+				B0CF25FF2D8051EB00CCC481 /* GoogleUtilities.framework */,
+				B0CF25F32D8051B800CCC481 /* FirebaseAnalytics.xcframework */,
+				B0CF25F52D8051B800CCC481 /* FirebaseAuth.framework */,
+				B0CF25F72D8051B800CCC481 /* FirebaseAuthInterop.framework */,
+				B0CF25F92D8051B800CCC481 /* FirebaseCore.framework */,
+				B0CF25FB2D8051B800CCC481 /* FirebaseFirestore.framework */,
+				B0CF25F12D80518600CCC481 /* openssl_grpc.framework */,
+				B0CF25ED2D80516F00CCC481 /* Alamofire.framework */,
+				B0CF25EF2D80516F00CCC481 /* AppAuth.framework */,
+				B0CF25C72D804E6F00CCC481 /* FirebaseAppCheck.framework */,
+				B0CF25C92D804E6F00CCC481 /* FirebaseAppCheckInterop.framework */,
+				B0CF25CB2D804E6F00CCC481 /* FirebaseAuth.framework */,
+				B0CF25CD2D804E6F00CCC481 /* FirebaseAuthInterop.framework */,
+				B0CF25CF2D804E6F00CCC481 /* FirebaseCore.framework */,
+				B0CF25D12D804E6F00CCC481 /* FirebaseCoreExtension.framework */,
+				B0CF25D32D804E6F00CCC481 /* FirebaseCoreInternal.framework */,
+				B0CF25D52D804E6F00CCC481 /* FirebaseFirestore.framework */,
+				B0CF25D72D804E6F00CCC481 /* FirebaseFirestoreInternal.framework */,
+				B0CF25D92D804E6F00CCC481 /* FirebaseInstallations.framework */,
+				B0CF25DB2D804E6F00CCC481 /* FirebaseSharedSwift.framework */,
+				B0CF25DD2D804E6F00CCC481 /* GoogleDataTransport.framework */,
+				B0CF25DF2D804E6F00CCC481 /* GoogleUtilities.framework */,
+				B0CF25E12D804E6F00CCC481 /* grpc.framework */,
+				B0CF25E32D804E6F00CCC481 /* grpcpp.framework */,
+				B0CF25E52D804E6F00CCC481 /* GTMSessionFetcher.framework */,
+				B0CF25E72D804E6F00CCC481 /* leveldb.framework */,
+				B0CF25E92D804E6F00CCC481 /* nanopb.framework */,
+				B0CF25EB2D804E6F00CCC481 /* openssl_grpc.framework */,
+				B0CF25BD2D804DA400CCC481 /* absl.framework */,
+				B0CF25BF2D804DA400CCC481 /* Alamofire.framework */,
+				B0CF25C12D804DA400CCC481 /* AppAuth.framework */,
+				B0CF25C32D804DA400CCC481 /* AppCheckCore.framework */,
+				B0CF25C52D804DA400CCC481 /* FBLPromises.framework */,
+				629BB31D505AFA197D8A2D7C /* Pods_basic_app.framework */,
+				88AC19B8833D297ACD9CD704 /* Pods_basic_app_basic_appUITests.framework */,
+				BE5DB7DB02C3633DCE27D306 /* Pods_basic_appTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,9 +259,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B08A1BE92D560F5E00F8BBB8 /* Build configuration list for PBXNativeTarget "basic_app" */;
 			buildPhases = (
+				67361AE489EC829EE3E8BC29 /* [CP] Check Pods Manifest.lock */,
 				B08A1BC12D560F5900F8BBB8 /* Sources */,
 				B08A1BC22D560F5900F8BBB8 /* Frameworks */,
 				B08A1BC32D560F5900F8BBB8 /* Resources */,
+				A39E4B9E9B85C8479556645B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,19 +274,6 @@
 			);
 			name = basic_app;
 			packageProductDependencies = (
-				B0DC085C2D71D33500D720EC /* FirebaseAnalytics */,
-				B0DC085E2D71D33500D720EC /* FirebaseAuth */,
-				B0DC08602D71D33500D720EC /* FirebaseCore */,
-				B0DC08622D71D33500D720EC /* FirebaseFirestore */,
-				B0DC088C2D71D79900D720EC /* GULAppDelegateSwizzler */,
-				B0DC088E2D71D79900D720EC /* GULEnvironment */,
-				B0DC08902D71D79900D720EC /* GULLogger */,
-				B0DC08922D71D79900D720EC /* GULMethodSwizzler */,
-				B0DC08962D71D79900D720EC /* GULNSData */,
-				B0DC08982D71D79900D720EC /* GULReachability */,
-				B0DC089A2D71D79900D720EC /* GULSwizzlerTestHelpers */,
-				B0E7B4912D71DA6900498107 /* Alamofire */,
-				B0E7B4932D71DA6F00498107 /* AppAuth */,
 			);
 			productName = basic_app;
 			productReference = B08A1BC52D560F5900F8BBB8 /* basic_app.app */;
@@ -170,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B08A1BEC2D560F5E00F8BBB8 /* Build configuration list for PBXNativeTarget "basic_appTests" */;
 			buildPhases = (
+				EB018920F1AFD246DEE8D03D /* [CP] Check Pods Manifest.lock */,
 				B08A1BD12D560F5E00F8BBB8 /* Sources */,
 				B08A1BD22D560F5E00F8BBB8 /* Frameworks */,
 				B08A1BD32D560F5E00F8BBB8 /* Resources */,
@@ -183,8 +297,6 @@
 				B08A1BD82D560F5E00F8BBB8 /* basic_appTests */,
 			);
 			name = basic_appTests;
-			packageProductDependencies = (
-			);
 			productName = basic_appTests;
 			productReference = B08A1BD52D560F5E00F8BBB8 /* basic_appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -193,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B08A1BEF2D560F5E00F8BBB8 /* Build configuration list for PBXNativeTarget "basic_appUITests" */;
 			buildPhases = (
+				B16A719FF2348CCABA8FC026 /* [CP] Check Pods Manifest.lock */,
 				B08A1BDB2D560F5E00F8BBB8 /* Sources */,
 				B08A1BDC2D560F5E00F8BBB8 /* Frameworks */,
 				B08A1BDD2D560F5E00F8BBB8 /* Resources */,
+				C2368E07765046D0127BDB69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -206,8 +320,6 @@
 				B08A1BE22D560F5E00F8BBB8 /* basic_appUITests */,
 			);
 			name = basic_appUITests;
-			packageProductDependencies = (
-			);
 			productName = basic_appUITests;
 			productReference = B08A1BDF2D560F5E00F8BBB8 /* basic_appUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -245,10 +357,6 @@
 			mainGroup = B08A1BBC2D560F5900F8BBB8;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */,
-				B0E7B48F2D71DA4C00498107 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				B0E7B4902D71DA5F00498107 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = B08A1BC62D560F5900F8BBB8 /* Products */;
@@ -285,6 +393,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67361AE489EC829EE3E8BC29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-basic_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A39E4B9E9B85C8479556645B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-basic_app/Pods-basic_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-basic_app/Pods-basic_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-basic_app/Pods-basic_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16A719FF2348CCABA8FC026 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-basic_app-basic_appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2368E07765046D0127BDB69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-basic_app-basic_appUITests/Pods-basic_app-basic_appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-basic_app-basic_appUITests/Pods-basic_app-basic_appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-basic_app-basic_appUITests/Pods-basic_app-basic_appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB018920F1AFD246DEE8D03D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-basic_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B08A1BC12D560F5900F8BBB8 /* Sources */ = {
@@ -445,6 +656,7 @@
 		};
 		B08A1BEA2D560F5E00F8BBB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 261DEB4E2B222B188E6B3973 /* Pods-basic_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +665,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"basic_app/Preview Content\"";
 				DEVELOPMENT_TEAM = B72SC323AD;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = basic_app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -476,6 +689,7 @@
 		};
 		B08A1BEB2D560F5E00F8BBB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0EE38D391E1D0F5E1D3E3EE /* Pods-basic_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -484,6 +698,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"basic_app/Preview Content\"";
 				DEVELOPMENT_TEAM = B72SC323AD;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = basic_app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -507,6 +722,7 @@
 		};
 		B08A1BED2D560F5E00F8BBB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A266B47EE1456DC8F5EA86 /* Pods-basic_appTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +742,7 @@
 		};
 		B08A1BEE2D560F5E00F8BBB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F84E9B87DBED67942A649239 /* Pods-basic_appTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +762,7 @@
 		};
 		B08A1BF02D560F5E00F8BBB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F71C19204ABAF7398909781 /* Pods-basic_app-basic_appUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -562,6 +780,7 @@
 		};
 		B08A1BF12D560F5E00F8BBB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5E5B45A1DD2C971A229EE26 /* Pods-basic_app-basic_appUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -617,109 +836,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 11.9.0;
-			};
-		};
-		B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/GoogleUtilities.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.2;
-			};
-		};
-		B0E7B48F2D71DA4C00498107 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.10.2;
-			};
-		};
-		B0E7B4902D71DA5F00498107 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/openid/AppAuth-iOS.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.7.6;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		B0DC085C2D71D33500D720EC /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		B0DC085E2D71D33500D720EC /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		B0DC08602D71D33500D720EC /* FirebaseCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
-		};
-		B0DC08622D71D33500D720EC /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08542D71D09C00D720EC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		B0DC088C2D71D79900D720EC /* GULAppDelegateSwizzler */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
-			productName = GULAppDelegateSwizzler;
-		};
-		B0DC088E2D71D79900D720EC /* GULEnvironment */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
-			productName = GULEnvironment;
-		};
-		B0DC08902D71D79900D720EC /* GULLogger */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
-			productName = GULLogger;
-		};
-		B0DC08922D71D79900D720EC /* GULMethodSwizzler */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
-			productName = GULMethodSwizzler;
-		};
-		B0DC08962D71D79900D720EC /* GULNSData */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
-			productName = GULNSData;
-		};
-		B0DC08982D71D79900D720EC /* GULReachability */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
-			productName = GULReachability;
-		};
-		B0DC089A2D71D79900D720EC /* GULSwizzlerTestHelpers */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0DC08552D71D0B000D720EC /* XCRemoteSwiftPackageReference "GoogleUtilities" */;
-			productName = GULSwizzlerTestHelpers;
-		};
-		B0E7B4912D71DA6900498107 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0E7B48F2D71DA4C00498107 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		B0E7B4932D71DA6F00498107 /* AppAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = B0E7B4902D71DA5F00498107 /* XCRemoteSwiftPackageReference "AppAuth-iOS" */;
-			productName = AppAuth;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B08A1BBD2D560F5900F8BBB8 /* Project object */;
 }
